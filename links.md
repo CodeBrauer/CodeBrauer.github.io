@@ -1,3 +1,19 @@
+# Webdev News
+
+- https://css-tricks.com/
+- http://speckyboy.com/
+- http://www.webdesignerdepot.com/
+- http://reddit.com/r/php
+- http://reddit.com/r/webdev
+- https://blog.sucuri.net/
+- http://www.smashingmagazine.com/
+- http://lifehacker.com/
+
+**German pages**
+
+- http://phpmagazin.de/news
+- http://t3n.de
+
 # Website testing
 
 - http://nibbler.silktide.com/
@@ -17,7 +33,6 @@
 
 # Funny quotes
 
-> Also the fine weather can turn to rain pretty quickly: We cannot trust the clouds 100%.
-
-> "@" This operator is affectionately known by veteran phpers as the stfu operator.
+> 1. Also the fine weather can turn to rain pretty quickly: We cannot trust the clouds 100%.
+> 2. "@" This operator is affectionately known by veteran phpers as the stfu operator.
 
