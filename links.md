@@ -1,3 +1,16 @@
+# PHP Stuff
+
+- http://php-osx.liip.ch/
+- http://wasil.org/sublime-text-3-perfect-php-development-set-up
+
+# CSS Stuff
+
+- http://cssguidelin.es/
+
+# Documenting
+
+- http://readme.io
+
 # Webdev News
 
 - https://css-tricks.com/
@@ -39,3 +52,6 @@
 > 1. Also the fine weather can turn to rain pretty quickly: We cannot trust the clouds 100%.
 > 2. "@" This operator is affectionately known by veteran phpers as the stfu operator.
 
+# Offline stuff for developers
+
+- http://devstickers.com/
