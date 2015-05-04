@@ -8,6 +8,9 @@
 - https://blog.sucuri.net/
 - http://www.smashingmagazine.com/
 - http://lifehacker.com/
+- http://demosthenes.info/blog
+- http://muz.li/blog/
+- http://www.html5rocks.com/
 
 **German pages**
 
