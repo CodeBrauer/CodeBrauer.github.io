@@ -30,7 +30,7 @@
 - http://phpmagazin.de/news
 - http://t3n.de
 
-# Website testing
+# Website rating
 
 - http://nibbler.silktide.com/
 
