@@ -9,6 +9,7 @@
 
 # Documenting
 
+- http://semver.org/
 - http://readme.io
 
 # Webdev News
