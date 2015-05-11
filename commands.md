@@ -1,3 +1,7 @@
+# Linux
+
+## find
+
 ### find all files with non-ascii chars:
 ```
 find ./ -type f | grep --color='auto' -P "[\x80-\xFF]"
