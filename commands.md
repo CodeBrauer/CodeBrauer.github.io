@@ -1,5 +1,17 @@
 # Linux
 
+## du
+
+### find top 10 biggest files in current path 
+```
+du -k / 2>/dev/null | sort -n | tail -10
+```
+
+### find top 10 biggest files in current path 
+```
+du -hsx * | sort -rh | head -10
+```
+
 ## find
 
 ### find all files with non-ascii chars in filename:
