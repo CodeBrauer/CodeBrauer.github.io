@@ -2,7 +2,7 @@
 
 ## du
 
-### find top 10 biggest files in current path 
+### find top 10 biggest folders in root path 
 ```
 du -k / 2>/dev/null | sort -n | tail -10
 ```
