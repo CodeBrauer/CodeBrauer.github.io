@@ -59,16 +59,29 @@ tar -ztvf {.tar.gz}    # list files of gzip
 tar -jtvf {.tbz2}      # list files of bzip2
 ```
 
-## gzip
+### gzip
 ```
 gzip -9 {files} # high compression
 gzip -l {.gz file} # list files
 gzip -d {.gz file} # uncompress
 ```
 
-## zip
+### zip
 ```
 zip {.zip-filname} {files}  # high compression
 unzip -l {.zip file}        # list files
 unzip {.zip file}           # uncompress
+```
+
+## netstat
+
+### show used ports by processname
+```
+# run as root!
+netstat -tulpen | grep {processname}
+```
+
+### show possible DDoS IPs (counts request of single ips)
+```
+netstat -ntu | awk '{print $5}' | cut -d: -f1 | sort | uniq -c | sort -n
 ```
