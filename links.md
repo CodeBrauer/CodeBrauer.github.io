@@ -31,6 +31,10 @@
 - http://phpmagazin.de/news
 - http://t3n.de
 
+# list of tools and resources
+- http://wwwhere.io/
+- http://kkovacs.eu/cool-but-obscure-unix-tools
+
 # Website rating
 
 - http://nibbler.silktide.com/
