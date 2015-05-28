@@ -1,3 +1,7 @@
+# General
+
+- http://webdevchecklist.com/
+
 # PHP Stuff
 
 - http://php-osx.liip.ch/
@@ -11,6 +15,11 @@
 
 - http://semver.org/
 - http://readme.io
+
+# Sec
+- https://blog.sucuri.net/
+- https://www.owasp.org/
+- https://www.owasp.org/index.php/PHP_Security_Cheat_Sheet
 
 # Webdev News
 
