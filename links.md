@@ -2,6 +2,18 @@
 
 - http://webdevchecklist.com/
 
+# Learning
+
+- [PHP - Laravel] https://laracasts.com/
+- [Angular.js] https://egghead.io/
+- http://learncodethehardway.org/
+- http://programming-motherfucker.com/become.html
+
+# great ebooks
+
+- [PHP] https://leanpub.com/build-apis-you-wont-hate
+- [PHP] https://leanpub.com/buildingsecurephpapps
+
 # PHP Stuff
 
 - http://php-osx.liip.ch/
