@@ -30,5 +30,6 @@
 	"show_encoding": true,
 	"tab_size": 4,
 	"theme": "Spacefunk (Grey Tuesday).sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"open_files_in_new_window": false
 }
