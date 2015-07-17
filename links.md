@@ -26,6 +26,10 @@
 
 - http://cssguidelin.es/
 
+# Icons
+- http://iconmelon.com/
+- https://icomoon.io/app/
+
 # Documenting
 
 - http://semver.org/
