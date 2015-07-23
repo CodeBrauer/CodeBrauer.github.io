@@ -13,6 +13,7 @@
 
 - [PHP] https://leanpub.com/build-apis-you-wont-hate
 - [PHP] https://leanpub.com/buildingsecurephpapps
+- [Linux/Server] https://leanpub.com/serversforhackers
 
 # Apache stuff
 - https://perishablepress.com/stupid-htaccess-tricks/
