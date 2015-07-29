@@ -1,0 +1,8 @@
+betterzipql
+qlcolorcode
+qlmarkdown
+qlstephen
+quicklook-json
+unsplash-wallpaper
+virtualbox
+webpquicklook
