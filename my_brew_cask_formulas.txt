@@ -1,8 +1,16 @@
+alfred
 betterzipql
+caffeine
+google-chrome
+opera
 qlcolorcode
 qlmarkdown
 qlstephen
+querious
 quicklook-json
+slack
+telegram
 unsplash-wallpaper
+vagrant
 virtualbox
 webpquicklook

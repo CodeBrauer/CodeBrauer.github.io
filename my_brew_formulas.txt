@@ -38,6 +38,7 @@ readline
 rhino
 rsync
 smartmontools
+speedtest_cli
 sqlite
 terminal-notifier
 tig
