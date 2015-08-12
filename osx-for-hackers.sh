@@ -1,5 +1,4 @@
 # OS X for hackers - my settings
-sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
 defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
