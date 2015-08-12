@@ -1,6 +1,7 @@
 alfred
 betterzipql
 caffeine
+firefox
 google-chrome
 opera
 qlcolorcode
@@ -8,9 +9,12 @@ qlmarkdown
 qlstephen
 querious
 quicklook-json
+sequel-pro
 slack
+spotify
 telegram
 unsplash-wallpaper
 vagrant
+vagrant-manager
 virtualbox
 webpquicklook

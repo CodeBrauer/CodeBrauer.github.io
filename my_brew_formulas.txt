@@ -9,16 +9,20 @@ cowsay
 cpulimit
 csvprintf
 curl
+dfc
 extract_url
 faac
 ffmpeg
+fortune
 freetype
 gdbm
 gettext
+gistit
 git
 htop-osx
 iftop
 imagemagick
+jansson
 jpeg
 jpegoptim
 lame
@@ -29,6 +33,8 @@ libtiff
 libtool
 libvo-aacenc
 lynx
+mtr
+mutt
 mysql
 nmap
 openssl
@@ -42,6 +48,7 @@ speedtest_cli
 sqlite
 terminal-notifier
 tig
+tokyo-cabinet
 tree
 unrar
 wget
