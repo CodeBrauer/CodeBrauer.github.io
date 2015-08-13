@@ -2,13 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Hello World!</title>
+    <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Roboto+Slab:200">
     <style>
         body {
           padding: 0;
           margin: 0;
           height: 100vh;
           background: crimson;
+          font-weight: 200;
+          font-family: 'Roboto Slab', serif;
       }
 
       .wrap {
@@ -16,12 +20,12 @@
           display: flex;
           align-items: center;
           justify-content: center;
+          box-shadow: inset 0 0 0 20px #fff;
       }
 
       .yo {
           border: 1px solid #e1e1e1;
           padding: 20px;
-          border-radius: 3px;
           background: #fafafa;
           color: #222;
           font-size: 40px;
@@ -33,5 +37,10 @@
     <div class="wrap">
         <div class="yo">Welcome to @CodeBrauer</div>
     </div>
+    <script>
+    setTimeout(function() {
+        window.location.href = "https://github.com/CodeBrauer/";
+    }, 3e3);
+    </script>
 </body>
 </html>
