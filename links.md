@@ -64,9 +64,11 @@
 - http://wwwhere.io/
 - http://kkovacs.eu/cool-but-obscure-unix-tools
 
-# Website rating
+# Website rating/testing
 
 - http://nibbler.silktide.com/
+- http://yellowlab.tools/
+- http://www.oneproseo.com/
 
 # Stock photos
 
