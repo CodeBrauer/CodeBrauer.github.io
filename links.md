@@ -74,6 +74,7 @@
 # Stock photos
 
 - http://www.thestocks.im
+- http://librestock.com/
 
 # FUN!
 
