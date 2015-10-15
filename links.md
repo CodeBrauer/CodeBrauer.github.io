@@ -84,6 +84,7 @@
 - http://commitstrip.com
 - http://devpractic.es
 - http://thecodinglove.com
+-http://xkcd.com/
 
 # Funny quotes
 
