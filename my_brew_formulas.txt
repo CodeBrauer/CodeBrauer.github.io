@@ -47,6 +47,7 @@ smartmontools
 speedtest_cli
 sqlite
 terminal-notifier
+the_silver_searcher
 tig
 tokyo-cabinet
 tree
