@@ -1,15 +1,17 @@
 alfred
+android-file-transfer
 betterzipql
 caffeine
+dterm
 firefox
 google-chrome
 opera
 qlcolorcode
-qlmarkdown
 qlstephen
 querious
 quicklook-json
 sequel-pro
+skype
 slack
 spotify
 telegram
@@ -17,4 +19,4 @@ unsplash-wallpaper
 vagrant
 vagrant-manager
 virtualbox
-webpquicklook
+vlc
