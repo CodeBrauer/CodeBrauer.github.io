@@ -1,4 +1,3 @@
-
 ack
 archey
 autoconf
@@ -8,6 +7,7 @@ bastet
 berkeley-db
 boost
 brew-cask
+brew-php-switcher
 clockywock
 cmake
 cmatrix
@@ -40,7 +40,9 @@ jpegoptim
 lame
 lftp
 libav
+libbson
 libcaca
+libevent
 libffi
 libpng
 libressl
@@ -53,6 +55,7 @@ little-cms
 little-cms2
 lynx
 mackup
+mongodb
 mtr
 mutt
 mysql
@@ -61,6 +64,9 @@ node
 openssl
 pcre
 phantomjs
+php53
+php54
+php55
 php56
 php70
 pkg-config
