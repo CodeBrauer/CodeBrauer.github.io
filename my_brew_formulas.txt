@@ -67,7 +67,11 @@ phantomjs
 php53
 php54
 php55
+php55-imagick
+php55-opcache
 php56
+php56-imagick
+php56-opcache
 php70
 pkg-config
 pyqt
