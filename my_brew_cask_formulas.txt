@@ -1,7 +1,7 @@
 alfred
 android-file-transfer
-betterzipql
 caffeine
+cyberghost
 dterm
 firefox
 font-aileron
@@ -17,6 +17,8 @@ font-quicksand
 font-roboto
 font-ubuntu
 google-chrome
+google-chrome-canary
+mancy
 opera
 qlcolorcode
 qlimagesize
@@ -33,3 +35,4 @@ vagrant
 vagrant-manager
 virtualbox
 vlc
+yujitach-menumeters
