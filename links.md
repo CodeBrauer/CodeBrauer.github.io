@@ -27,6 +27,11 @@
 
 - http://cssguidelin.es/
 
+# Email Stuff
+
+- https://www.mail-tester.com/
+- https://putsmail.com/
+
 # Icons
 - http://iconmelon.com/
 - https://icomoon.io/app/
