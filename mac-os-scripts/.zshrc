@@ -75,6 +75,12 @@ pkill "AAM Updates Notifier"
 
 alias php-version="brew-php-switcher "
 
+# functions
+
 getpw () {
     printf $(security find-internet-password -a $1 -w) | pbcopy
+}
+
+zipf () {
+    zip -r "$1".zip "$1" ;
 }
