@@ -9,28 +9,47 @@
 - http://learncodethehardway.org/
 - http://programming-motherfucker.com/become.html
 
-# great ebooks
+# Great eBooks
 
 - [PHP] https://leanpub.com/build-apis-you-wont-hate
 - [PHP] https://leanpub.com/buildingsecurephpapps
 - [Linux/Server] https://leanpub.com/serversforhackers
 
-# Apache stuff
+# Domains
+- https://domainr.com/
+- https://support.google.com/a/answer/48090?hl=en
+- https://www.linode.com/docs/networking/dns/introduction-to-dns-records
+
+# Apache
 - https://perishablepress.com/stupid-htaccess-tricks/
 
-# PHP Stuff
+# PHP
 
 - http://php-osx.liip.ch/
 - http://wasil.org/sublime-text-3-perfect-php-development-set-up
 
-# CSS Stuff
+# CSS
 
 - http://cssguidelin.es/
 
-# Email Stuff
+# JS
+
+-
+
+# Maps
+
+- https://www.mapbox.com/
+- https://snazzymaps.com/
+- http://maps.stamen.com/
+- 
+
+# Email
 
 - https://www.mail-tester.com/
 - https://putsmail.com/
+- https://migadu.com/
+- http://www.mailgun.com/
+- http://mandrill.com/
 
 # Icons
 - http://iconmelon.com/
@@ -75,6 +94,7 @@
 - http://yellowlab.tools/
 - http://www.oneproseo.com/
 - http://www.webpagetest.org/
+- http://design.google.com/resizer/
 
 # Stock photos
 
@@ -97,6 +117,7 @@
 
 > 1. Also the fine weather can turn to rain pretty quickly: We cannot trust the clouds 100%.
 > 2. "@" This operator is affectionately known by veteran phpers as the stfu operator.
+> 3. There is no cloud, just other people's computers
 
 # Offline stuff for developers
 
