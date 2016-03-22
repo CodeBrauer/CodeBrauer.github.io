@@ -121,6 +121,7 @@
 > 1. Also the fine weather can turn to rain pretty quickly: We cannot trust the clouds 100%.
 > 2. "@" This operator is affectionately known by veteran phpers as the stfu operator.
 > 3. There is no cloud, just other people's computers
+> 4. It may be rare, but databases fail. Hard disks can stop. Servers can explode. Web hosts can go bankrupt. Losing your MySQL data is catastrophic, so ensure you have automated backups or replication in place.
 
 # Offline stuff for developers
 
