@@ -8,6 +8,7 @@
 - [Angular.js] https://egghead.io/
 - http://learncodethehardway.org/
 - http://programming-motherfucker.com/become.html
+- http://www.peterkropff.de/ (german)
 
 # Great eBooks
 
@@ -31,20 +32,22 @@
 # CSS
 
 - http://cssguidelin.es/
+- https://css-tricks.com/almanac/
 
 # JS
 
--
+- http://caniuse.com/
 
 # Analytics
 - https://heapanalytics.com/
+- https://www.hotjar.com/
 
 # Maps
 
 - https://www.mapbox.com/
 - https://snazzymaps.com/
 - http://maps.stamen.com/
-
+- http://leafletjs.com/
 
 # Email
 
@@ -57,6 +60,7 @@
 # Icons
 - http://iconmelon.com/
 - https://icomoon.io/app/
+- https://www.iconfinder.com/
 
 # Documenting
 
