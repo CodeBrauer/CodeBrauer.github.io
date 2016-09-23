@@ -1,0 +1,129 @@
+# Path to your oh-my-zsh installation.
+export ZSH=/Users/gw/.oh-my-zsh
+
+# zsh conf
+ZSH_THEME="crunch"
+DISABLE_AUTO_UPDATE="true"
+export UPDATE_ZSH_DAYS=30
+COMPLETION_WAITING_DOTS="true"
+HIST_STAMPS="yyyy-mm-dd"
+plugins=(git)
+source $ZSH/oh-my-zsh.sh
+export ARCHFLAGS="-arch x86_64"
+export CLICOLORS=1
+export HOMEBREW_GITHUB_API_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+# path
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export MAMP_PHP=/Applications/MAMP/bin/php/php5.5.10/bin/php
+export PATH="$MAMP_PHP:$PATH"
+export PATH=/usr/local/mysql/bin:$PATH
+export PATH="/usr/local/sbin:$PATH"
+
+# aliases
+alias subl="/Applications/Sublime\ Text\ 3.app/Contents/SharedSupport/bin/subl"
+alias prettyjson='python -m json.tool'
+export PATH="/usr/local/sbin:$PATH"
+alias ls="ls -G"
+alias ll="ls -lhaG"
+alias medoo="curl -o medoo.min.php http://medoo.in/file/medoo.min"
+alias killDS='find . -name *.DS_Store -type f -delete'
+alias killThumbs='find . -name Thumbs.db -type f -delete'
+alias ip='curl ipinfo.io/'
+alias subl="/Applications/Sublime\ Text\ 3.app/Contents/SharedSupport/bin/subl"
+alias mphp="/Applications/MAMP/bin/php/php7.0.10/bin/php"
+
+export NVM_DIR="/Users/gw/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# get password from macOS keychain by account username (by @CodeBrauer)
+getpw () {
+    printf $(security find-internet-password -a $1 -w) | pbcopy
+}
+
+# Defines transfer alias and provides easy command line file and folder sharing. by Remco Verhoef <remco@dutchcoders.io>
+
+curl --version 2>&1 > /dev/null
+if [ $? -ne 0 ]; then
+  echo "Could not find curl."
+  return 1
+fi
+
+transfer() { 
+    # check arguments
+    if [ $# -eq 0 ]; 
+    then 
+        echo "No arguments specified. Usage:\necho transfer /tmp/test.md\ncat /tmp/test.md | transfer test.md"
+        return 1
+    fi
+
+    # get temporarily filename, output is written to this file show progress can be showed
+    tmpfile=$( mktemp -t transferXXX )
+    
+    # upload stdin or file
+    file=$1
+
+    if tty -s; 
+    then 
+        basefile=$(basename "$file" | sed -e 's/[^a-zA-Z0-9._-]/-/g') 
+
+        if [ ! -e $file ];
+        then
+            echo "File $file doesn't exists."
+            return 1
+        fi
+        
+        if [ -d $file ];
+        then
+            # zip directory and transfer
+            zipfile=$( mktemp -t transferXXX.zip )
+            cd $(dirname $file) && zip -r -q - $(basename $file) >> $zipfile
+            curl --progress-bar --upload-file "$zipfile" "https://transfer.sh/$basefile.zip" >> $tmpfile
+            rm -f $zipfile
+        else
+            # transfer file
+            curl --progress-bar --upload-file "$file" "https://transfer.sh/$basefile" >> $tmpfile
+        fi
+    else 
+        # transfer pipe
+        curl --progress-bar --upload-file "-" "https://transfer.sh/$file" >> $tmpfile
+    fi
+   
+    # cat output link
+    cat $tmpfile
+
+    # cleanup
+    rm -f $tmpfile
+}
+
+# taken from https://github.com/stecman/composer-bash-completion-plugin
+
+function _composer {
+    # Emulate BASH's command line contents variable
+    local -x COMP_LINE="$words"
+
+    # Emulate BASH's cursor position variable, setting it to the end of the current word.
+    local -x COMP_POINT
+    (( COMP_POINT = ${#${(j. .)words[1,CURRENT]}} ))
+
+    # Honour the COMPOSER_HOME variable if set
+    local composer_dir=$COMPOSER_HOME
+    if [ -z "$composer_dir" ]; then
+        composer_dir=$HOME/.composer
+    fi
+
+    local RESULT STATUS
+    local -x COMPOSER_CWD=`pwd`
+    RESULT=("${(@f)$( cd $composer_dir && composer depends _completion )}")
+    STATUS=$?;
+
+    # Bail out if PHP didn't exit cleanly
+    if [ $STATUS -ne 0 ]; then
+        echo $RESULT;
+        return $?;
+    fi;
+
+    compadd -- $RESULT
+};
+
+compdef _composer composer;
